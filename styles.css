@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Desktop / Global View*/
+
+body {
+	font-family:'Montserrat', sans-serif;
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+}
+
+.col{
+	float:left;
+	padding: 1%
+}
+
+.col-lg{
+	width: 31.3%;
+}
+
+
+.col-lg img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+
+.slicknav_menu {
+	display: none;
+}
+
+
+
+#menu {
+	float: right;
+}
+
+#menu li {
+	display: inline-block;
+	
+}
+
+#menu li a {
+	text-decoration: none;
+	color: #105B63;
+	padding: 8px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+header {
+	padding: 10px 20px 20px 20px;
+}
+
+
+.hero {
+	background-image: url("images/herobox.jpg");
+	padding: 52px 0px 72px 72px;
+	background-size: cover;
+}
+
+.subheading {
+	color:#fff;
+	font-weight:500;
+	font-size:33px;
+	margin-bottom: -20px;
+	
+}
+
+h1{
+	color:#fff;
+	font-wight: 400;
+	font-size: 40px;
+}
+
+.heading-body-copy { 
+	color:#fff;
+	font-size: 16px;
+	margin-right: 20%;
+	margin-bottom:30px;
+	margin-top:-10px;
+}
+
+
+.contact-me {
+	background-color:#DB9E36;
+	padding: 8px 38px;
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*Tablet View*/
+	
+@media (max-width:768px) {
+	
+	#menu li {
+		display: block;
+		text-align: right;
+	}	
+
+
+	.col-md {
+		width: 48%;
+	}
+
+}
+
+
+
+
+
+
+/*Mobile View*/
+	
+@media (max-width:400px) {
+
+	.slicknav_menu {
+		display: block;
+	}
+	
+	#menu {
+		display: none;
+	}
+	
+	.col-sm{
+		width: 100%;	
+	}
+	
+	.col{
+		passing: 0%;
+	}
+	
+	
+	
+}
